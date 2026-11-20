@@ -11,7 +11,7 @@ class FlaskAppTest(unittest.TestCase):
     def test_home(self):
         response = self.client.get("/")
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b"Flask application is running successfully", response.data)
+        self.assertIn(b"Flask application Version 2 is running successfully", response.data)
 
     def test_health(self):
         response = self.client.get("/health")

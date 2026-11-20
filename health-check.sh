@@ -18,4 +18,4 @@ echo "Checking disk usage..."
 
 df -h .
 
-echo "Health Check Completed Successfully!"
+echo "Updated Health Check: Version 2 Successfully Running!"
